@@ -1,6 +1,6 @@
 {
   "name": "@nchagnet/remark-uv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A remark plugin that executes Python code blocks using uv and embeds the output (text, images, SVG) into rendered markdown",
   "keywords": [
     "remark",
