@@ -1,0 +1,17 @@
+{
+  "name": "remark-uv",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/mdast": "^4.0.4",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js"
+}
