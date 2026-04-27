@@ -1,17 +1,36 @@
 {
-  "name": "remark-uv",
+  "name": "@nchagnet/remark-uv",
   "version": "1.0.0",
+  "dependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  },
   "devDependencies": {
     "@types/mdast": "^4.0.4",
     "unified": "^11.0.5",
     "unist-util-visit": "^5.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "tsc"
   },
-  "author": "",
+  "author": "nicolaschagnet",
   "description": "",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
-  "license": "ISC",
-  "main": "index.js"
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "types": "./dist/index.d.ts"
 }
