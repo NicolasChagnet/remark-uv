@@ -4,6 +4,167 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+time:
+  '@esbuild/darwin-arm64@0.27.7': 2026-04-02T16:41:35.638Z
+  '@esbuild/linux-arm64@0.27.7': 2026-04-02T16:42:03.486Z
+  '@esbuild/linux-x64@0.27.7': 2026-04-02T16:42:42.543Z
+  '@esbuild/win32-arm64@0.27.7': 2026-04-02T16:43:29.208Z
+  '@esbuild/win32-x64@0.27.7': 2026-04-02T16:43:41.245Z
+  '@jridgewell/gen-mapping@0.3.13': 2025-08-12T06:43:21.134Z
+  '@jridgewell/resolve-uri@3.1.2': 2024-02-14T19:32:38.143Z
+  '@jridgewell/sourcemap-codec@1.5.5': 2025-08-12T06:43:59.139Z
+  '@jridgewell/trace-mapping@0.3.31': 2025-09-10T20:12:49.468Z
+  '@oxc-project/types@0.127.0': 2026-04-20T19:31:02.662Z
+  '@rolldown/binding-darwin-arm64@1.0.0-rc.17': 2026-04-22T11:13:47.749Z
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.17': 2026-04-22T11:13:42.623Z
+  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.17': 2026-04-22T11:13:53.598Z
+  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.17': 2026-04-22T11:13:18.886Z
+  '@rolldown/binding-linux-x64-musl@1.0.0-rc.17': 2026-04-22T11:13:25.244Z
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.17': 2026-04-22T11:14:04.463Z
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.17': 2026-04-22T11:13:13.128Z
+  '@rolldown/pluginutils@1.0.0-rc.17': 2026-04-22T11:13:01.300Z
+  '@rollup/rollup-darwin-arm64@4.60.2': 2026-04-18T13:58:27.555Z
+  '@rollup/rollup-linux-arm64-gnu@4.60.2': 2026-04-18T13:58:41.555Z
+  '@rollup/rollup-linux-arm64-musl@4.60.2': 2026-04-18T13:58:45.162Z
+  '@rollup/rollup-linux-x64-gnu@4.60.2': 2026-04-18T13:59:43.183Z
+  '@rollup/rollup-linux-x64-musl@4.60.2': 2026-04-18T13:59:46.857Z
+  '@rollup/rollup-win32-arm64-msvc@4.60.2': 2026-04-18T13:58:34.533Z
+  '@rollup/rollup-win32-x64-gnu@4.60.2': 2026-04-18T13:59:32.651Z
+  '@rollup/rollup-win32-x64-msvc@4.60.2': 2026-04-18T13:59:36.248Z
+  '@standard-schema/spec@1.1.0': 2025-12-15T20:49:46.431Z
+  '@types/chai@5.2.3': 2025-10-20T23:32:43.277Z
+  '@types/debug@4.1.13': 2026-03-19T06:47:23.938Z
+  '@types/deep-eql@4.0.2': 2023-11-07T01:34:12.026Z
+  '@types/estree@1.0.8': 2025-06-06T00:04:34.692Z
+  '@types/mdast@4.0.4': 2024-05-14T07:35:37.616Z
+  '@types/ms@2.1.0': 2025-01-16T21:02:46.181Z
+  '@types/node@25.6.0': 2026-04-10T03:39:59.421Z
+  '@types/unist@3.0.3': 2024-08-15T02:19:16.553Z
+  '@vitest/expect@4.1.5': 2026-04-21T11:03:51.080Z
+  '@vitest/mocker@4.1.5': 2026-04-21T11:03:36.716Z
+  '@vitest/pretty-format@4.1.5': 2026-04-21T11:03:24.603Z
+  '@vitest/runner@4.1.5': 2026-04-21T11:03:42.738Z
+  '@vitest/snapshot@4.1.5': 2026-04-21T11:03:46.574Z
+  '@vitest/spy@4.1.5': 2026-04-21T11:03:27.647Z
+  '@vitest/utils@4.1.5': 2026-04-21T11:03:33.226Z
+  acorn@8.16.0: 2026-02-19T15:06:28.070Z
+  any-promise@1.3.0: 2016-05-08T12:15:06.060Z
+  assertion-error@2.0.1: 2023-10-18T18:04:13.507Z
+  bail@2.0.2: 2021-11-07T08:39:23.227Z
+  bundle-require@5.1.0: 2024-12-22T15:13:14.839Z
+  cac@6.7.14: 2022-08-29T03:02:03.481Z
+  chai@6.2.2: 2025-12-22T21:26:03.989Z
+  character-entities@2.0.2: 2022-06-22T14:01:06.906Z
+  chokidar@4.0.3: 2024-12-18T22:21:34.451Z
+  commander@4.1.1: 2020-02-03T06:15:56.861Z
+  confbox@0.1.8: 2024-10-06T19:45:00.097Z
+  consola@3.4.2: 2025-03-18T10:17:43.596Z
+  convert-source-map@2.0.0: 2022-10-17T22:06:48.628Z
+  debug@4.4.3: 2025-09-13T17:25:19.732Z
+  decode-named-character-reference@1.3.0: 2026-01-19T19:53:01.619Z
+  dequal@2.0.3: 2022-07-11T23:29:04.965Z
+  detect-libc@2.1.2: 2025-10-05T12:46:33.077Z
+  devlop@1.1.0: 2023-06-29T15:17:11.346Z
+  es-module-lexer@2.1.0: 2026-04-25T22:50:31.041Z
+  esbuild@0.27.7: 2026-04-02T16:43:44.831Z
+  estree-walker@3.0.3: 2023-01-20T02:27:12.467Z
+  expect-type@1.3.0: 2025-12-08T13:04:58.798Z
+  extend@3.0.2: 2018-07-19T20:28:11.447Z
+  fdir@6.5.0: 2025-08-14T16:56:03.948Z
+  fix-dts-default-cjs-exports@1.0.1: 2025-03-18T10:04:11.838Z
+  fsevents@2.3.3: 2023-08-21T16:24:22.854Z
+  is-plain-obj@4.1.0: 2022-06-15T15:47:13.746Z
+  joycon@3.1.1: 2021-12-01T18:56:12.607Z
+  lightningcss-darwin-arm64@1.32.0: 2026-03-09T04:23:07.357Z
+  lightningcss-linux-arm64-gnu@1.32.0: 2026-03-09T04:23:18.594Z
+  lightningcss-linux-arm64-musl@1.32.0: 2026-03-09T04:23:21.203Z
+  lightningcss-linux-x64-gnu@1.32.0: 2026-03-09T04:23:24.274Z
+  lightningcss-linux-x64-musl@1.32.0: 2026-03-09T04:23:27.400Z
+  lightningcss-win32-arm64-msvc@1.32.0: 2026-03-09T04:23:30.176Z
+  lightningcss-win32-x64-msvc@1.32.0: 2026-03-09T04:23:33.073Z
+  lightningcss@1.32.0: 2026-03-09T04:23:43.754Z
+  lilconfig@3.1.3: 2024-12-03T11:49:17.194Z
+  lines-and-columns@1.2.4: 2021-11-21T03:31:07.871Z
+  load-tsconfig@0.2.5: 2023-03-19T12:17:40.179Z
+  longest-streak@3.1.0: 2022-11-15T12:13:29.629Z
+  magic-string@0.30.21: 2025-10-24T00:59:47.122Z
+  mdast-util-from-markdown@2.0.3: 2026-02-21T13:23:13.849Z
+  mdast-util-phrasing@4.1.0: 2024-02-01T10:26:42.249Z
+  mdast-util-to-markdown@2.1.2: 2024-11-04T10:56:59.698Z
+  mdast-util-to-string@4.0.0: 2023-07-07T16:19:50.488Z
+  micromark-core-commonmark@2.0.3: 2025-02-27T13:49:35.477Z
+  micromark-factory-destination@2.0.1: 2024-11-12T11:16:55.545Z
+  micromark-factory-label@2.0.1: 2024-11-12T11:16:59.169Z
+  micromark-factory-space@2.0.1: 2024-11-12T11:17:03.021Z
+  micromark-factory-title@2.0.1: 2024-11-12T11:17:06.622Z
+  micromark-factory-whitespace@2.0.1: 2024-11-12T11:17:10.261Z
+  micromark-util-character@2.1.1: 2024-11-12T11:17:13.750Z
+  micromark-util-chunked@2.0.1: 2024-11-12T11:17:17.117Z
+  micromark-util-classify-character@2.0.1: 2024-11-12T11:17:20.461Z
+  micromark-util-combine-extensions@2.0.1: 2024-11-12T11:17:23.680Z
+  micromark-util-decode-numeric-character-reference@2.0.2: 2024-11-12T11:17:27.210Z
+  micromark-util-decode-string@2.0.1: 2024-11-12T11:17:30.843Z
+  micromark-util-encode@2.0.1: 2024-11-12T11:17:34.206Z
+  micromark-util-html-tag-name@2.0.1: 2024-11-12T11:17:37.806Z
+  micromark-util-normalize-identifier@2.0.1: 2024-11-12T11:17:41.347Z
+  micromark-util-resolve-all@2.0.1: 2024-11-12T11:17:45.019Z
+  micromark-util-sanitize-uri@2.0.1: 2024-11-12T11:17:48.745Z
+  micromark-util-subtokenize@2.1.0: 2025-02-27T13:48:52.891Z
+  micromark-util-symbol@2.0.1: 2024-11-12T11:17:55.709Z
+  micromark-util-types@2.0.2: 2025-02-27T13:55:27.982Z
+  micromark@4.0.2: 2025-02-27T14:04:03.516Z
+  mlly@1.8.2: 2026-03-19T23:39:49.530Z
+  ms@2.1.3: 2020-12-08T13:54:35.223Z
+  mz@2.7.0: 2017-09-13T17:57:36.315Z
+  nanoid@3.3.11: 2025-03-18T23:06:32.923Z
+  object-assign@4.1.1: 2017-01-16T15:35:15.282Z
+  obug@2.1.1: 2025-11-22T09:31:55.146Z
+  pathe@2.0.3: 2025-02-11T19:47:35.862Z
+  picocolors@1.1.1: 2024-10-16T18:20:03.921Z
+  picomatch@4.0.4: 2026-03-23T20:39:47.960Z
+  pirates@4.0.7: 2025-03-27T11:21:58.481Z
+  pkg-types@1.3.1: 2025-01-14T12:35:59.927Z
+  postcss-load-config@6.0.1: 2024-06-02T19:02:03.793Z
+  postcss@8.5.12: 2026-04-26T14:23:03.643Z
+  readdirp@4.1.2: 2025-02-14T17:27:21.994Z
+  remark-parse@11.0.0: 2023-09-18T09:42:28.170Z
+  remark-stringify@11.0.0: 2023-09-18T09:43:14.397Z
+  remark@15.0.1: 2023-09-18T10:20:58.543Z
+  resolve-from@5.0.0: 2019-04-15T04:06:25.601Z
+  rolldown@1.0.0-rc.17: 2026-04-22T11:14:29.632Z
+  rollup@4.60.2: 2026-04-18T13:59:58.613Z
+  siginfo@2.0.0: 2020-06-16T20:30:23.515Z
+  source-map-js@1.2.1: 2024-09-08T16:22:55.645Z
+  source-map@0.7.6: 2025-07-24T05:12:51.288Z
+  stackback@0.0.2: 2012-10-20T00:56:54.591Z
+  std-env@4.1.0: 2026-04-15T08:02:30.338Z
+  sucrase@3.35.1: 2025-11-19T17:10:51.830Z
+  thenify-all@1.6.0: 2015-01-10T17:24:24.668Z
+  thenify@3.3.1: 2020-06-17T17:30:57.152Z
+  tinybench@2.9.0: 2024-08-02T15:09:44.961Z
+  tinyexec@0.3.2: 2024-12-29T12:03:44.675Z
+  tinyexec@1.1.1: 2026-04-07T12:49:47.713Z
+  tinyglobby@0.2.16: 2026-04-07T23:37:03.457Z
+  tinyrainbow@3.1.0: 2026-03-12T09:21:01.296Z
+  tree-kill@1.2.2: 2019-12-11T18:34:21.876Z
+  trough@2.2.0: 2024-02-05T15:27:09.053Z
+  ts-interface-checker@0.1.13: 2020-08-04T21:20:32.219Z
+  tsup@8.5.1: 2025-11-12T21:21:42.746Z
+  typescript@6.0.3: 2026-04-16T23:38:27.905Z
+  ufo@1.6.3: 2026-01-14T23:46:35.800Z
+  undici-types@7.19.2: 2026-01-27T20:25:15.804Z
+  unified@11.0.5: 2024-06-19T12:33:43.464Z
+  unist-util-is@6.0.1: 2025-10-16T18:01:47.398Z
+  unist-util-stringify-position@4.0.0: 2023-07-07T10:09:26.763Z
+  unist-util-visit-parents@6.0.2: 2025-10-16T18:20:45.045Z
+  unist-util-visit@5.1.0: 2026-01-22T19:02:58.977Z
+  vfile-message@4.0.3: 2025-07-26T15:08:12.656Z
+  vfile@6.0.3: 2024-08-27T09:12:42.377Z
+  vite@8.0.10: 2026-04-23T05:19:36.436Z
+  vitest@4.1.5: 2026-04-21T11:04:03.117Z
+  why-is-node-running@2.3.0: 2024-07-08T12:57:23.951Z
+  zwitch@2.0.4: 2022-11-16T09:09:14.038Z
+
 importers:
 
   .:
@@ -24,9 +185,6 @@ importers:
         specifier: ^6.0.0 || ^7.0.0 || ^8.0.0
         version: 8.0.10(@types/node@25.6.0)(esbuild@0.27.7)
     devDependencies:
-      '@rolldown/binding-linux-x64-gnu':
-        specifier: ^1.0.0-rc.17
-        version: 1.0.0-rc.17
       '@types/mdast':
         specifier: ^4.0.4
         version: 4.0.4
@@ -48,6 +206,10 @@ importers:
       vitest:
         specifier: ^4.1.5
         version: 4.1.5(@types/node@25.6.0)(vite@8.0.10(@types/node@25.6.0)(esbuild@0.27.7))
+    optionalDependencies:
+      '@rollup/rollup-linux-x64-gnu':
+        specifier: '*'
+        version: 4.60.2
 
 packages:
 
@@ -58,6 +220,38 @@ packages:
     - darwin
     cpu:
     - arm64
+
+  '@esbuild/linux-arm64@0.27.7':
+    resolution: {integrity: sha512-RZPHBoxXuNnPQO9rvjh5jdkRmVizktkT7TCDkDmQ0W2SwHInKCAV95GRuvdSvA7w4VMwfCjUiPwDi0ZO6Nfe9A==}
+    engines: {node: '>=18'}
+    os:
+    - linux
+    cpu:
+    - arm64
+
+  '@esbuild/linux-x64@0.27.7':
+    resolution: {integrity: sha512-hzznmADPt+OmsYzw1EE33ccA+HPdIqiCRq7cQeL1Jlq2gb1+OyWBkMCrYGBJ+sxVzve2ZJEVeePbLM2iEIZSxA==}
+    engines: {node: '>=18'}
+    os:
+    - linux
+    cpu:
+    - x64
+
+  '@esbuild/win32-arm64@0.27.7':
+    resolution: {integrity: sha512-7yRhbHvPqSpRUV7Q20VuDwbjW5kIMwTHpptuUzV+AA46kiPze5Z7qgt6CLCK3pWFrHeNfDd1VKgyP4O+ng17CA==}
+    engines: {node: '>=18'}
+    os:
+    - win32
+    cpu:
+    - arm64
+
+  '@esbuild/win32-x64@0.27.7':
+    resolution: {integrity: sha512-56hiAJPhwQ1R4i+21FVF7V8kSD5zZTdHcVuRFMW0hn753vVfQN8xlx4uOPT4xoGH0Z/oVATuR82AiqSTDIpaHg==}
+    engines: {node: '>=18'}
+    os:
+    - win32
+    cpu:
+    - x64
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -83,11 +277,59 @@ packages:
     cpu:
     - arm64
 
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.17':
+    resolution: {integrity: sha512-e6usGaHKW5BMNZOymS1UcEYGowQMWcgZ71Z17Sl/h2+ZziNJ1a9n3Zvcz6LdRyIW5572wBCTH/Z+bKuZouGk9Q==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    os:
+    - linux
+    cpu:
+    - arm64
+    libc:
+    - glibc
+
+  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.17':
+    resolution: {integrity: sha512-b/CgbwAJpmrRLp02RPfhbudf5tZnN9nsPWK82znefso832etkem8H7FSZwxrOI9djcdTP7U6YfNhbRnh7djErg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    os:
+    - linux
+    cpu:
+    - arm64
+    libc:
+    - musl
+
   '@rolldown/binding-linux-x64-gnu@1.0.0-rc.17':
     resolution: {integrity: sha512-cLnjV3xfo7KslbU41Z7z8BH/E1y5mzUYzAqih1d1MDaIGZRCMqTijqLv76/P7fyHuvUcfGsIpqCdddbxLLK9rA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     os:
     - linux
+    cpu:
+    - x64
+    libc:
+    - glibc
+
+  '@rolldown/binding-linux-x64-musl@1.0.0-rc.17':
+    resolution: {integrity: sha512-0phclDw1spsL7dUB37sIARuis2tAgomCJXAHZlpt8PXZ4Ba0dRP1e+66lsRqrfhISeN9bEGNjQs+T/Fbd7oYGw==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    os:
+    - linux
+    cpu:
+    - x64
+    libc:
+    - musl
+
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.17':
+    resolution: {integrity: sha512-gUmyzBl3SPMa6hrqFUth9sVfcLBlYsbMzBx5PlexMroZStgzGqlZ26pYG89rBb45Mnia+oil6YAIFeEWGWhoZA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    os:
+    - win32
+    cpu:
+    - arm64
+
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.17':
+    resolution: {integrity: sha512-3hkiolcUAvPB9FLb3UZdfjVVNWherN1f/skkGWJP/fgSQhYUZpSIRr0/I8ZK9TkF3F7kxvJAk0+IcKvPHk9qQg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    os:
+    - win32
     cpu:
     - x64
 
@@ -100,6 +342,63 @@ packages:
     - darwin
     cpu:
     - arm64
+
+  '@rollup/rollup-linux-arm64-gnu@4.60.2':
+    resolution: {integrity: sha512-bO/rVDiDUuM2YfuCUwZ1t1cP+/yqjqz+Xf2VtkdppefuOFS2OSeAfgafaHNkFn0t02hEyXngZkxtGqXcXwO8Rg==}
+    os:
+    - linux
+    cpu:
+    - arm64
+    libc:
+    - glibc
+
+  '@rollup/rollup-linux-arm64-musl@4.60.2':
+    resolution: {integrity: sha512-hr26p7e93Rl0Za+JwW7EAnwAvKkehh12BU1Llm9Ykiibg4uIr2rbpxG9WCf56GuvidlTG9KiiQT/TXT1yAWxTA==}
+    os:
+    - linux
+    cpu:
+    - arm64
+    libc:
+    - musl
+
+  '@rollup/rollup-linux-x64-gnu@4.60.2':
+    resolution: {integrity: sha512-UQjrkIdWrKI626Du8lCQ6MJp/6V1LAo2bOK9OTu4mSn8GGXIkPXk/Vsp4bLHCd9Z9Iz2OTEaokUE90VweJgIYQ==}
+    os:
+    - linux
+    cpu:
+    - x64
+    libc:
+    - glibc
+
+  '@rollup/rollup-linux-x64-musl@4.60.2':
+    resolution: {integrity: sha512-bTsRGj6VlSdn/XD4CGyzMnzaBs9bsRxy79eTqTCBsA8TMIEky7qg48aPkvJvFe1HyzQ5oMZdg7AnVlWQSKLTnw==}
+    os:
+    - linux
+    cpu:
+    - x64
+    libc:
+    - musl
+
+  '@rollup/rollup-win32-arm64-msvc@4.60.2':
+    resolution: {integrity: sha512-NCYhOotpgWZ5kdxCZsv6Iudx0wX8980Q/oW4pNFNihpBKsDbEA1zpkfxJGC0yugsUuyDZ7gL37dbzwhR0VI7pQ==}
+    os:
+    - win32
+    cpu:
+    - arm64
+
+  '@rollup/rollup-win32-x64-gnu@4.60.2':
+    resolution: {integrity: sha512-qdAzEULD+/hzObedtmV6iBpdL5TIbKVztGiK7O3/KYSf+HIzU257+MX1EXJcyIiDbMAqmbwaufcYPvyRryeZtA==}
+    os:
+    - win32
+    cpu:
+    - x64
+
+  '@rollup/rollup-win32-x64-msvc@4.60.2':
+    resolution: {integrity: sha512-Nd/SgG27WoA9e+/TdK74KnHz852TLa94ovOYySo/yMPuTmpckK/jIF2jSwS3g7ELSKXK13/cVdmg1Z/DaCWKxA==}
+    os:
+    - win32
+    cpu:
+    - x64
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
@@ -279,6 +578,62 @@ packages:
     - darwin
     cpu:
     - arm64
+
+  lightningcss-linux-arm64-gnu@1.32.0:
+    resolution: {integrity: sha512-0nnMyoyOLRJXfbMOilaSRcLH3Jw5z9HDNGfT/gwCPgaDjnx0i8w7vBzFLFR1f6CMLKF8gVbebmkUN3fa/kQJpQ==}
+    engines: {node: '>= 12.0.0'}
+    os:
+    - linux
+    cpu:
+    - arm64
+    libc:
+    - glibc
+
+  lightningcss-linux-arm64-musl@1.32.0:
+    resolution: {integrity: sha512-UpQkoenr4UJEzgVIYpI80lDFvRmPVg6oqboNHfoH4CQIfNA+HOrZ7Mo7KZP02dC6LjghPQJeBsvXhJod/wnIBg==}
+    engines: {node: '>= 12.0.0'}
+    os:
+    - linux
+    cpu:
+    - arm64
+    libc:
+    - musl
+
+  lightningcss-linux-x64-gnu@1.32.0:
+    resolution: {integrity: sha512-V7Qr52IhZmdKPVr+Vtw8o+WLsQJYCTd8loIfpDaMRWGUZfBOYEJeyJIkqGIDMZPwPx24pUMfwSxxI8phr/MbOA==}
+    engines: {node: '>= 12.0.0'}
+    os:
+    - linux
+    cpu:
+    - x64
+    libc:
+    - glibc
+
+  lightningcss-linux-x64-musl@1.32.0:
+    resolution: {integrity: sha512-bYcLp+Vb0awsiXg/80uCRezCYHNg1/l3mt0gzHnWV9XP1W5sKa5/TCdGWaR/zBM2PeF/HbsQv/j2URNOiVuxWg==}
+    engines: {node: '>= 12.0.0'}
+    os:
+    - linux
+    cpu:
+    - x64
+    libc:
+    - musl
+
+  lightningcss-win32-arm64-msvc@1.32.0:
+    resolution: {integrity: sha512-8SbC8BR40pS6baCM8sbtYDSwEVQd4JlFTOlaD3gWGHfThTcABnNDBda6eTZeqbofalIJhFx0qKzgHJmcPTnGdw==}
+    engines: {node: '>= 12.0.0'}
+    os:
+    - win32
+    cpu:
+    - arm64
+
+  lightningcss-win32-x64-msvc@1.32.0:
+    resolution: {integrity: sha512-Amq9B/SoZYdDi1kFrojnoqPLxYhQ4Wo5XiL8EVJrVsB8ARoC1PWW6VGtT0WKCemjy8aC+louJnjS7U18x3b06Q==}
+    engines: {node: '>= 12.0.0'}
+    os:
+    - win32
+    cpu:
+    - x64
 
   lightningcss@1.32.0:
     resolution: {integrity: sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==}
@@ -668,6 +1023,14 @@ snapshots:
 
   '@esbuild/darwin-arm64@0.27.7': {}
 
+  '@esbuild/linux-arm64@0.27.7': {}
+
+  '@esbuild/linux-x64@0.27.7': {}
+
+  '@esbuild/win32-arm64@0.27.7': {}
+
+  '@esbuild/win32-x64@0.27.7': {}
+
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -686,11 +1049,35 @@ snapshots:
 
   '@rolldown/binding-darwin-arm64@1.0.0-rc.17': {}
 
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.17': {}
+
+  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.17': {}
+
   '@rolldown/binding-linux-x64-gnu@1.0.0-rc.17': {}
+
+  '@rolldown/binding-linux-x64-musl@1.0.0-rc.17': {}
+
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.17': {}
+
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.17': {}
 
   '@rolldown/pluginutils@1.0.0-rc.17': {}
 
   '@rollup/rollup-darwin-arm64@4.60.2': {}
+
+  '@rollup/rollup-linux-arm64-gnu@4.60.2': {}
+
+  '@rollup/rollup-linux-arm64-musl@4.60.2': {}
+
+  '@rollup/rollup-linux-x64-gnu@4.60.2': {}
+
+  '@rollup/rollup-linux-x64-musl@4.60.2': {}
+
+  '@rollup/rollup-win32-arm64-msvc@4.60.2': {}
+
+  '@rollup/rollup-win32-x64-gnu@4.60.2': {}
+
+  '@rollup/rollup-win32-x64-msvc@4.60.2': {}
 
   '@standard-schema/spec@1.1.0': {}
 
@@ -811,6 +1198,10 @@ snapshots:
   esbuild@0.27.7:
     optionalDependencies:
       '@esbuild/darwin-arm64': 0.27.7
+      '@esbuild/linux-arm64': 0.27.7
+      '@esbuild/linux-x64': 0.27.7
+      '@esbuild/win32-arm64': 0.27.7
+      '@esbuild/win32-x64': 0.27.7
 
   estree-walker@3.0.3:
     dependencies:
@@ -838,11 +1229,29 @@ snapshots:
 
   lightningcss-darwin-arm64@1.32.0: {}
 
+  lightningcss-linux-arm64-gnu@1.32.0: {}
+
+  lightningcss-linux-arm64-musl@1.32.0: {}
+
+  lightningcss-linux-x64-gnu@1.32.0: {}
+
+  lightningcss-linux-x64-musl@1.32.0: {}
+
+  lightningcss-win32-arm64-msvc@1.32.0: {}
+
+  lightningcss-win32-x64-msvc@1.32.0: {}
+
   lightningcss@1.32.0:
     dependencies:
       detect-libc: 2.1.2
     optionalDependencies:
       lightningcss-darwin-arm64: 1.32.0
+      lightningcss-linux-arm64-gnu: 1.32.0
+      lightningcss-linux-arm64-musl: 1.32.0
+      lightningcss-linux-x64-gnu: 1.32.0
+      lightningcss-linux-x64-musl: 1.32.0
+      lightningcss-win32-arm64-msvc: 1.32.0
+      lightningcss-win32-x64-msvc: 1.32.0
 
   lilconfig@3.1.3: {}
 
@@ -1099,12 +1508,25 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-rc.17
     optionalDependencies:
       '@rolldown/binding-darwin-arm64': 1.0.0-rc.17
+      '@rolldown/binding-linux-arm64-gnu': 1.0.0-rc.17
+      '@rolldown/binding-linux-arm64-musl': 1.0.0-rc.17
+      '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.17
+      '@rolldown/binding-linux-x64-musl': 1.0.0-rc.17
+      '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.17
+      '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.17
 
   rollup@4.60.2:
     dependencies:
       '@types/estree': 1.0.8
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.60.2
+      '@rollup/rollup-linux-arm64-gnu': 4.60.2
+      '@rollup/rollup-linux-arm64-musl': 4.60.2
+      '@rollup/rollup-linux-x64-gnu': 4.60.2
+      '@rollup/rollup-linux-x64-musl': 4.60.2
+      '@rollup/rollup-win32-arm64-msvc': 4.60.2
+      '@rollup/rollup-win32-x64-gnu': 4.60.2
+      '@rollup/rollup-win32-x64-msvc': 4.60.2
       fsevents: 2.3.3
 
   siginfo@2.0.0: {}

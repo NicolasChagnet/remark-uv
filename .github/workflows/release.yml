@@ -1,5 +1,9 @@
 name: Release
 
+permissions:
+  contents: read
+  id-token: write
+
 on:
   push:
     tags:
@@ -8,9 +12,6 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
 
     steps:
       - uses: actions/checkout@v4
@@ -18,22 +19,17 @@ jobs:
       - name: Set up mise (aube + Node)
         uses: jdx/mise-action@v2
 
-      - name: Set up npm auth
-        uses: actions/setup-node@v4
-        with:
-          registry-url: "https://registry.npmjs.org"
+      - name: Upgrade npm # ← add this
+        run: npm install -g npm@latest
 
       - name: Install dependencies
         run: aube ci
 
-      - name: Lint
-        run: aube run lint
-
-      - name: Test
-        run: aube test
-
-      - name: Build
-        run: aube run build
+      - name: Lint, Test and Build
+        run: |
+          aube run lint
+          aube run test
+          aube run build
 
       - name: Publish to npm
-        run: aube publish
+        run: npm publish --access public --loglevel verbose

@@ -1,4 +1,4 @@
-name: PR
+name: Quality
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
   push:
 
 jobs:
-  release:
+  check:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,8 +19,7 @@ jobs:
       - name: Install dependencies
         run: aube ci
 
-      - name: Lint
-        run: aube run lint
-
-      - name: Test
-        run: aube test
+      - name: Lint and test
+        run: |
+          aube run lint
+          aube run test
