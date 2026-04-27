@@ -1,6 +1,24 @@
 {
   "name": "@nchagnet/remark-uv",
   "version": "1.0.0",
+  "description": "A remark plugin that executes Python code blocks using uv and embeds the output (text, images, SVG) into rendered markdown",
+  "keywords": [
+    "remark",
+    "remark-plugin",
+    "unified",
+    "markdown",
+    "python",
+    "uv",
+    "mdast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasChagnet/remark-uv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NicolasChagnet/remark-uv/issues"
+  },
+  "homepage": "https://github.com/NicolasChagnet/remark-uv#readme",
   "devDependencies": {
     "@types/mdast": "^4.0.4",
     "@types/node": "^25.6.0",
@@ -8,8 +26,10 @@
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
     "unified": "^11.0.5",
-    "unist-util-visit": "^5.1.0",
     "vitest": "^4.1.5"
+  },
+  "dependencies": {
+    "unist-util-visit": "^5.1.0"
   },
   "scripts": {
     "build": "tsup",
@@ -18,7 +38,6 @@
     "test": "vitest run"
   },
   "author": "nicolaschagnet",
-  "description": "",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -30,10 +49,12 @@
   "files": [
     "dist"
   ],
-  "keywords": [],
   "license": "MIT",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "type": "module",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
 }

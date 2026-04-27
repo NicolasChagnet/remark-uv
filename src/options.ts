@@ -42,7 +42,7 @@ export function templateImg(
   const tag = wrapperClass ? `<figure class="${wrapperClass}">` : "<figure>";
   return `
 ${tag}
-  <img src="data:image/png;base64,${imgb64}" caption="${caption || ""}" />
+  <img src="data:image/png;base64,${imgb64}" alt="${caption || ""}" />
   ${caption ? `<figcaption>${caption}</figcaption>` : ""}
 </figure>`;
 }

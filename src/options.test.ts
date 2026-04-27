@@ -35,7 +35,6 @@ describe("Utility Functions", () => {
     });
 
     it("should fallback to text for invalid kinds", () => {
-      // @ts-expect-error - testing runtime fallback for non-TS users
       const result = parseMeta("unknown [deps]");
       expect(result.kind).toBe("text");
     });
@@ -46,13 +45,13 @@ describe("Utility Functions", () => {
       const html = templateImg("base64data", "My caption", "my-wrapper");
       expect(html).toContain('class="my-wrapper"');
       expect(html).toContain('src="data:image/png;base64,base64data"');
-      expect(html).toContain('caption="My caption"');
+      expect(html).toContain('alt="My caption"');
       expect(html).toContain("<figure");
     });
 
     it("templateSvg should wrap raw SVG content", () => {
       const svgRaw = "<svg>...</svg>";
-      const html = templateSvg(svgRaw, "svg-wrap");
+      const html = templateSvg(svgRaw, undefined, "svg-wrap");
       expect(html).toContain('class="svg-wrap"');
       expect(html).toContain(svgRaw);
     });

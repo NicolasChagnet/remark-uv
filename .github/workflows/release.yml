@@ -1,0 +1,40 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up mise (aube + Node)
+        uses: jdx/mise-action@v2
+
+      - name: Set up npm auth
+        uses: actions/setup-node@v4
+        with:
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies
+        run: aube install --frozen-lockfile
+
+      - name: Lint
+        run: aube run lint
+
+      - name: Test
+        run: aube test
+
+      - name: Build
+        run: aube run build
+
+      - name: Publish to npm
+        run: aube publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

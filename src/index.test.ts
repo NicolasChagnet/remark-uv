@@ -70,11 +70,12 @@ describe("remarkPyRun Plugin", () => {
       signal: null,
     });
 
-    const input = '```pyRun img alt="My Plot"\nplot()\n```';
+    const input = '```pyRun img caption="My Plot"\nplot()\n```';
     const output = processMarkdown(input);
 
     expect(output).toContain("<figure");
     expect(output).toContain('alt="My Plot"');
+    expect(output).toContain("<figcaption>My Plot</figcaption>");
     expect(output).toContain("data:image/png;base64,iVBOR");
   });
 

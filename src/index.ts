@@ -44,7 +44,7 @@ const defaultOptions: Required<RemarkPyRunOptions> = {
   timeout: 10000,
   baseDeps: ["matplotlib", "plotly", "kaleido"],
   cacheDir: "", // Disabled by default
-  defaultOutputType: "img",
+  defaultOutputType: "text",
   wrapperClass: "py-run-result",
 };
 
@@ -77,7 +77,7 @@ const remarkPyRun: Plugin<[RemarkPyRunOptions?], Root> = (options = {}) => {
       [];
 
     visit(tree, "code", (node: Code, index, parent) => {
-      if (node.lang === "pyRun" && parent && index !== undefined) {
+      if (node.lang === config.codeTag && parent && index !== undefined) {
         nodesToProcess.push({ node, index, parent });
       }
     });
