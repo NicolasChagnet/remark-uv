@@ -1,4 +1,4 @@
-name: Release
+name: PR
 
 on:
   pull_request:
@@ -15,11 +15,6 @@ jobs:
 
       - name: Set up mise (aube + Node)
         uses: jdx/mise-action@v2
-
-      - name: Set up npm auth
-        uses: actions/setup-node@v4
-        with:
-          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: aube ci

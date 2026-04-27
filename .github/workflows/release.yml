@@ -24,7 +24,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
-        run: aube install --frozen-lockfile
+        run: aube ci
 
       - name: Lint
         run: aube run lint
